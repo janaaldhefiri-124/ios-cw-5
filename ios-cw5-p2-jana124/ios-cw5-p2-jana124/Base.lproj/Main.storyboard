@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ios_cw5_p2_jana124" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" alpha="0.80000000000000004" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="test 2" translatesAutoresizingMaskIntoConstraints="NO" id="hsE-uR-nnG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3li-fN-uvi">
+                                <rect key="frame" x="68" y="513" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93300539255142212" green="0.73750907182693481" blue="0.70091599225997925" alpha="0.80190496575342463" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
+                                <connections>
+                                    <action selector="press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="viC-Nz-tb4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ca6-Sj-zhk">
+                                <rect key="frame" x="68" y="409" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93695467710494995" green="0.74744206666946411" blue="0.72541892528533936" alpha="0.59583690068493156" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
+                                <connections>
+                                    <action selector="press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lor-jd-9W4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHS-qB-WYy">
+                                <rect key="frame" x="168" y="306" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93301129341125488" green="0.72482037544250488" blue="0.69681841135025024" alpha="0.59851241438356162" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
+                                <connections>
+                                    <action selector="press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eTv-Pc-ed6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lv5-Gl-ovv">
+                                <rect key="frame" x="168" y="513" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93301153182983398" green="0.72876101732254028" blue="0.69935458898544312" alpha="0.5998769263698629" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
+                                <connections>
+                                    <action selector="press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lJZ-CB-qIu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5m-P3-AcF">
+                                <rect key="frame" x="168" y="409" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93558448553085327" green="0.74845141172409058" blue="0.71214300394058228" alpha="0.80080800513698636" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
+                                <connections>
+                                    <action selector="press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BX8-Mn-KF3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puH-u0-Jz0">
+                                <rect key="frame" x="266" y="306" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9369085431098938" green="0.77677977085113525" blue="0.71605980396270752" alpha="0.80353702910958902" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
+                                <connections>
+                                    <action selector="press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qob-Da-ckW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGg-kY-fMW">
+                                <rect key="frame" x="266" y="513" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9329865574836731" green="0.76424139738082886" blue="0.70607215166091919" alpha="0.79593857020547942" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
+                                <connections>
+                                    <action selector="press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lb3-eZ-PRt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bw4-WO-5yr">
+                                <rect key="frame" x="266" y="409" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93695294857025146" green="0.74645841121673584" blue="0.72378891706466675" alpha="0.59610445205479456" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
+                                <connections>
+                                    <action selector="press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tgP-y6-FXd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="x Turn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5v-YP-RPN">
+                                <rect key="frame" x="76" y="155" width="262" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="90"/>
+                                <color key="textColor" red="0.91350340843200684" green="0.51614099740982056" blue="0.64163434505462646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GS0-vz-bOi">
+                                <rect key="frame" x="100" y="620" width="227" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="50"/>
+                                <state key="normal" title="reset">
+                                    <color key="titleColor" red="0.9120599627494812" green="0.34251099824905396" blue="0.49687498807907104" alpha="0.88768193493150682" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="reset" destination="BYZ-38-t0r" eventType="touchUpInside" id="RYt-o8-qpT"/>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hgg-uP-6Az"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myE-PH-gtH">
+                                <rect key="frame" x="68" y="306" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93690735101699829" green="0.77899640798568726" blue="0.71673518419265747" alpha="0.79510916095890416" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
+                                <connections>
+                                    <action selector="press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ab9-5E-snB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="b1" destination="myE-PH-gtH" id="LPK-Du-HwY"/>
+                        <outlet property="b2" destination="NHS-qB-WYy" id="Wsp-16-KNb"/>
+                        <outlet property="b3" destination="puH-u0-Jz0" id="Ezx-tI-gBb"/>
+                        <outlet property="b4" destination="ca6-Sj-zhk" id="g9g-7k-94a"/>
+                        <outlet property="b5" destination="s5m-P3-AcF" id="8g1-yT-4RL"/>
+                        <outlet property="b6" destination="bw4-WO-5yr" id="pni-5S-rGc"/>
+                        <outlet property="b7" destination="3li-fN-uvi" id="4Cj-aU-iVY"/>
+                        <outlet property="b8" destination="lv5-Gl-ovv" id="bM8-7e-utW"/>
+                        <outlet property="b9" destination="NGg-kY-fMW" id="STb-jS-sa5"/>
+                        <outlet property="turnLabel" destination="l5v-YP-RPN" id="RUy-pt-6Vg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57.971014492753625" y="118.52678571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="test 2" width="768" height="1662"/>
+    </resources>
+</document>
